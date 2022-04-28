@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  SubletSeeker
 //
-//  Created by Qingwan Cheng on 4/26/22.
+//  Created by Qingwan Cheng.
 //
 
 import UIKit
