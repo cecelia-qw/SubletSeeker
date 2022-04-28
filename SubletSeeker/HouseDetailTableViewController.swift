@@ -2,7 +2,7 @@
 //  HouseDetailTableViewController.swift
 //  SubletSeeker
 //
-//  Created by Qingwan Cheng on 4/27/22.
+//  Created by Qingwan Cheng.
 //
 
 import UIKit
