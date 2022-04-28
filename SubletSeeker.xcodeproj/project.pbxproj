@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C8459E70145BC0C72AEE27C /* Pods_SubletSeeker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B1FD283F192437778CB9680 /* Pods_SubletSeeker.framework */; };
+		1C1A9029281A33ED004DB825 /* HouseDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1A9028281A33ED004DB825 /* HouseDetailTableViewController.swift */; };
+		1C1A902B281A68D1004DB825 /* Houses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1A902A281A68D1004DB825 /* Houses.swift */; };
 		1CA928902818EB3B006D67ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA9288F2818EB3B006D67ED /* AppDelegate.swift */; };
 		1CA928922818EB3B006D67ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA928912818EB3B006D67ED /* SceneDelegate.swift */; };
-		1CA928942818EB3B006D67ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA928932818EB3B006D67ED /* ViewController.swift */; };
+		1CA928942818EB3B006D67ED /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA928932818EB3B006D67ED /* LoginViewController.swift */; };
 		1CA928972818EB3B006D67ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CA928952818EB3B006D67ED /* Main.storyboard */; };
 		1CA928992818EB3D006D67ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CA928982818EB3D006D67ED /* Assets.xcassets */; };
 		1CA9289C2818EB3D006D67ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CA9289A2818EB3D006D67ED /* LaunchScreen.storyboard */; };
+		1CCF1B3D2818FC8800516A7A /* HousesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCF1B3C2818FC8800516A7A /* HousesListViewController.swift */; };
+		1CCF1B3F2819024F00516A7A /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCF1B3E2819024F00516A7A /* House.swift */; };
+		1CE572AB2818F019005F386E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1CE572AA2818F019005F386E /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C1A9028281A33ED004DB825 /* HouseDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseDetailTableViewController.swift; sourceTree = "<group>"; };
+		1C1A902A281A68D1004DB825 /* Houses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Houses.swift; sourceTree = "<group>"; };
 		1CA9288C2818EB3B006D67ED /* SubletSeeker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SubletSeeker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CA9288F2818EB3B006D67ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CA928912818EB3B006D67ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1CA928932818EB3B006D67ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1CA928932818EB3B006D67ED /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		1CA928962818EB3B006D67ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1CA928982818EB3D006D67ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CA9289B2818EB3D006D67ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CA9289D2818EB3D006D67ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CCF1B3C2818FC8800516A7A /* HousesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousesListViewController.swift; sourceTree = "<group>"; };
+		1CCF1B3E2819024F00516A7A /* House.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = House.swift; sourceTree = "<group>"; };
+		1CE572AA2818F019005F386E /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		598C638D36F006DEA8EFCF37 /* Pods-SubletSeeker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SubletSeeker.debug.xcconfig"; path = "Target Support Files/Pods-SubletSeeker/Pods-SubletSeeker.debug.xcconfig"; sourceTree = "<group>"; };
+		669CF0F4E3FF2DDA8E6DDA86 /* Pods-SubletSeeker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SubletSeeker.release.xcconfig"; path = "Target Support Files/Pods-SubletSeeker/Pods-SubletSeeker.release.xcconfig"; sourceTree = "<group>"; };
+		6B1FD283F192437778CB9680 /* Pods_SubletSeeker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SubletSeeker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C8459E70145BC0C72AEE27C /* Pods_SubletSeeker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A86C1D2F3F72CB2B5F91E4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B1FD283F192437778CB9680 /* Pods_SubletSeeker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1CA928832818EB3B006D67ED = {
 			isa = PBXGroup;
 			children = (
 				1CA9288E2818EB3B006D67ED /* SubletSeeker */,
 				1CA9288D2818EB3B006D67ED /* Products */,
+				7FC9F0E957A2E3D411917638 /* Pods */,
+				1A86C1D2F3F72CB2B5F91E4C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +83,27 @@
 			children = (
 				1CA9288F2818EB3B006D67ED /* AppDelegate.swift */,
 				1CA928912818EB3B006D67ED /* SceneDelegate.swift */,
-				1CA928932818EB3B006D67ED /* ViewController.swift */,
+				1CCF1B3E2819024F00516A7A /* House.swift */,
+				1C1A902A281A68D1004DB825 /* Houses.swift */,
+				1CA928932818EB3B006D67ED /* LoginViewController.swift */,
+				1CCF1B3C2818FC8800516A7A /* HousesListViewController.swift */,
+				1C1A9028281A33ED004DB825 /* HouseDetailTableViewController.swift */,
 				1CA928952818EB3B006D67ED /* Main.storyboard */,
 				1CA928982818EB3D006D67ED /* Assets.xcassets */,
 				1CA9289A2818EB3D006D67ED /* LaunchScreen.storyboard */,
 				1CA9289D2818EB3D006D67ED /* Info.plist */,
+				1CE572AA2818F019005F386E /* GoogleService-Info.plist */,
 			);
 			path = SubletSeeker;
+			sourceTree = "<group>";
+		};
+		7FC9F0E957A2E3D411917638 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				598C638D36F006DEA8EFCF37 /* Pods-SubletSeeker.debug.xcconfig */,
+				669CF0F4E3FF2DDA8E6DDA86 /* Pods-SubletSeeker.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +113,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1CA928A02818EB3D006D67ED /* Build configuration list for PBXNativeTarget "SubletSeeker" */;
 			buildPhases = (
+				8FCDF2F245684217CB341C5A /* [CP] Check Pods Manifest.lock */,
 				1CA928882818EB3B006D67ED /* Sources */,
 				1CA928892818EB3B006D67ED /* Frameworks */,
 				1CA9288A2818EB3B006D67ED /* Resources */,
+				DF19F452BDBEF07ADBFE1E96 /* [CP] Embed Pods Frameworks */,
+				2B5C9C2485E4C097E4112A75 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CA9289C2818EB3D006D67ED /* LaunchScreen.storyboard in Resources */,
+				1CE572AB2818F019005F386E /* GoogleService-Info.plist in Resources */,
 				1CA928992818EB3D006D67ED /* Assets.xcassets in Resources */,
 				1CA928972818EB3B006D67ED /* Main.storyboard in Resources */,
 			);
@@ -133,14 +176,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2B5C9C2485E4C097E4112A75 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SubletSeeker/Pods-SubletSeeker-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SubletSeeker/Pods-SubletSeeker-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SubletSeeker/Pods-SubletSeeker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FCDF2F245684217CB341C5A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SubletSeeker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF19F452BDBEF07ADBFE1E96 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SubletSeeker/Pods-SubletSeeker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SubletSeeker/Pods-SubletSeeker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SubletSeeker/Pods-SubletSeeker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1CA928882818EB3B006D67ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CA928942818EB3B006D67ED /* ViewController.swift in Sources */,
+				1C1A902B281A68D1004DB825 /* Houses.swift in Sources */,
+				1CA928942818EB3B006D67ED /* LoginViewController.swift in Sources */,
 				1CA928902818EB3B006D67ED /* AppDelegate.swift in Sources */,
 				1CA928922818EB3B006D67ED /* SceneDelegate.swift in Sources */,
+				1CCF1B3F2819024F00516A7A /* House.swift in Sources */,
+				1CCF1B3D2818FC8800516A7A /* HousesListViewController.swift in Sources */,
+				1C1A9029281A33ED004DB825 /* HouseDetailTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +390,7 @@
 		};
 		1CA928A12818EB3D006D67ED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 598C638D36F006DEA8EFCF37 /* Pods-SubletSeeker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +419,7 @@
 		};
 		1CA928A22818EB3D006D67ED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 669CF0F4E3FF2DDA8E6DDA86 /* Pods-SubletSeeker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
